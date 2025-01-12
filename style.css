@@ -1,0 +1,22 @@
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+.marginlef{
+    display: flex;
+    justify-content: space-between;
+}
+.formila{
+    width: 90px;
+}
+button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  .divider:after,
+  .divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  }
